@@ -1,0 +1,19 @@
+{
+  "name": "wedding-band",
+  "version": "1.0.0",
+  "description": "band site for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coylec/wedding-band.git"
+  },
+  "author": "Conrad Coyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coylec/wedding-band/issues"
+  },
+  "homepage": "https://github.com/coylec/wedding-band#readme"
+}
