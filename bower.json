@@ -1,0 +1,22 @@
+{
+  "name": "wedding-band",
+  "description": "band site for project",
+  "main": "index.js",
+  "authors": [
+    "Conrad Coyle"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/coylec/wedding-band",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}
