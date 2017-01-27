@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-var offset = 250;
+var offset = 10;
  
 var duration = 300;
  
