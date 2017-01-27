@@ -12,9 +12,12 @@
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 
 </head>
-<body>
+<body id="page-top">
 	<div class="navbar-wrapper">
 		<div class="container">
 			<nav class="navbar navbar-inverse navbar-static-top">
@@ -49,12 +52,27 @@
 	</div>
 	
 	<div ng-view></div>
+
+	<button type="button" class="back-to-top btn btn-default btn-lg">
+	<a href="#"><span class="glyphicon glyphicon-menu-up"></span>
+	</a>
+	</button>
+
+	<div class="container">
+	<footer>
+		<p class="pull-right"><a href="#page-top">Back to top</a></p>
+		<p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	</footer>
+
+	</div>
+	
 	
 
 
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/controller.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 
 
  
