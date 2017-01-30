@@ -1,11 +1,9 @@
 .back-to-top {
-
 	position: fixed;
 	display: none;
 	bottom: 0;
 	right: 0;
 	z-index: 100;
-	
 }
 .other-pages {
 	margin-top: 150px;
@@ -19,4 +17,11 @@
 }
 .para-spacer {
 	margin-bottom: 40px;
+}
+#youtube-btn {
+	color: #cd201f;
+	text-decoration: none;
+}
+.contact-links {
+	text-align: center;
 }
