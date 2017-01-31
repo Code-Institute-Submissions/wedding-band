@@ -19,18 +19,18 @@
 				<div class="form-group">
 					<label>Name</label>
 					<input type="text" name="name" class="form-control" data-ng-model="user.username" required>
-					<p data-ng-show="contactForm.name.$pristine" class="help-block">Your name is required</p>
+					<p data-ng-show="contactForm.name.$pristine" class="help-block">Your name (Required)</p>
 				</div>
 				<div class="form-group">
 					<label>Email</label>
 					<input type="email" name="email" class="form-control" data-ng-model="user.email" required>
-					<p data-ng-show="contactForm.email.$pristine" class="help-block">Please enter a valid email address</p>
+					<p data-ng-show="contactForm.email.$pristine" class="help-block">Email address (Required)</p>
 				</div>
 
 				<div class="form-group">
 					<label>Phone Number</label>
 					<input type="text" name="phone" class="form-control" data-ng-model="user.phone">
-					<p data-ng-show="contactForm.phone.$pristine" class="help-block">Please enter your phone number(optional)</p>
+					<p data-ng-show="contactForm.phone.$pristine" class="help-block">Phone number (Optional)</p>
 				</div>
 
 				<div class="form-group">

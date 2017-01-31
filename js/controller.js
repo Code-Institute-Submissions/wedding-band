@@ -10,4 +10,6 @@ angular.module("RouteControllers", [])
 	.controller("FaqController", function($scope){
 	})
 	.controller("ContactController", function($scope){
+	})
+	.controller("DatesController", function($scope){
 	});

@@ -26,6 +26,10 @@ angular.module("WeddingBand").config(function($locationProvider, $routeProvider)
 	.when("/contact/contactform", {
 		templateUrl: "templates/contact.html",
 		controller: "ContactController"
+	})
+	.when("/contact/dates", {
+		templateUrl: "templates/dates.html",
+		controller: "DatesController"
 	});
 
 });
