@@ -11,5 +11,13 @@ angular.module("RouteControllers", [])
 	})
 	.controller("ContactController", function($scope){
 	})
-	.controller("DatesController", function($scope){
+	.controller("DatesController", function($scope, $routeParams, datesService){
+		var dateId = $routeParams.dateId;
+		$scope.date = null;
+
+		function init() {
+			$scope.date = datesService.getDate(dateId);
+		}
+
+		init();
 	});
