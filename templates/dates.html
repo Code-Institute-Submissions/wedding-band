@@ -13,10 +13,11 @@
 				<li><a href="#">February</a></li>
 			</ul>-->
 
+			<!--Button should reveal list of dates provided by service-->
 			<button href="#datesInfo" class="btn btn-primary" data-toggle="collapse">Dates</button>
 
 			<div id=datesInfo class="collapse" ng-repeat="date in dates">
-         		{{dates.month}} {{dates.day}}
+         		{{date.month}} {{date.day}}
     		</div>
 
 

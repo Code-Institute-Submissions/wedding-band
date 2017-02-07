@@ -1,20 +1,20 @@
 $(document).ready(function() {
  
-var offset = 10;
+	var offset = 10;
  
-var duration = 300;
+	var duration = 300;
  
 $(window).scroll(function() {
  
-if ($(this).scrollTop() > offset) {
+		if ($(this).scrollTop() > offset) {
  
-$(".back-to-top").fadeIn(duration);
+			$(".back-to-top").fadeIn(duration);
  
-} else {
+		} else {
  
-$(".back-to-top").fadeOut(duration);
+			$(".back-to-top").fadeOut(duration);
  
-}
+		}
  
 });
  
@@ -22,12 +22,12 @@ $(".back-to-top").fadeOut(duration);
  
 $(".back-to-top").click(function(event) {
  
-event.preventDefault();
+	event.preventDefault();
  
-$("html, body").animate({scrollTop: 0}, duration);
+	$("html, body").animate({scrollTop: 0}, duration);
  
-return false;
+	return false;
  
-});
+	});
  
 });
