@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-md-12 dropdown">
 			<h1>Available Dates</h1>
-			<p>Please select your desired month from the dropdown menu below by clicking on the 'Select' button. This will show you what dates we have available that month. If you see an available date that you are interested in booking us for please contact us for further info.</p>
+			<p>Please click on the "Dates" button below to see a list of our available dates in the coming months. If you see an available date that you are interested in booking us for or have a future date in mind which is not yet listed please contact us for further info.</p>
 
 			<hr class="featurette-divider">
 
@@ -14,10 +14,13 @@
 			</ul>-->
 
 			<!--Button should reveal list of dates provided by service-->
+			
 			<button href="#datesInfo" class="btn btn-primary" data-toggle="collapse">Dates</button>
 
-			<div id=datesInfo class="collapse" ng-repeat="date in dates">
-         		{{date.month}} {{date.day}}
+			<div id=datesInfo class="collapse">
+				<div ng-repeat="date in dates">
+         			{{date.month}} {{date.day}}
+    			</div>
     		</div>
 
 

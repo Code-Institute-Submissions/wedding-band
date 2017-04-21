@@ -26,7 +26,10 @@
 		var dates = [
 				{month: "January", day: "15th"},
 				{month: "March", day: "24th"},
-				{month: "June", day: "5th"}
+				{month: "June", day: "5th"},
+				{month: "August", day: "10th"},
+				{month: "October", day: "19th"},
+				{month: "December", day: "28th"}
 			];
 		
 
