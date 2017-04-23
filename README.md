@@ -4,42 +4,44 @@
 
 ### What is this site for?
 
-This is a site in order to represent a band who specialize in weddings and corporate events.
+This is a site to represent a band who specialize in weddings and corporate events.
 
 ### What does it do?
 
-This site provides visitors with information about the band, audio examples etc. It provides a means of contacting the band and checking available dates, prices etc.
+This site provides visitors with information about the band, audio examples etc. It also provides a means of contacting the band, signing up to a newsletter and checking available dates, prices etc.
 
 ### How does it work?
+
+The site is built using AngularJS which handles page routing and is used for custom directives and services. I built a custom service to provide a list of available dates to the user when they click on a button. This is just to show an example of how a service could be used as there is no backend functionality to this site. As well as this I used custom HTML5, CSS3 and Javascript along with Bootstrap and AngularStrap to give the site it's design and functionality.
 
 
 
 ## Features
 
 ### Existing features
-- None yet!
+- Picture carousel
+- Newsletter signup
+- Contact form
+- Social links
+- Audio and video clips
+- Button to check available dates
 
-### Features still to Implement
-- Band Information
-	- Bio
-	- Dates/prices
-	- Links to buy music
-- User Based Features
-	- Newsletter signup
-	- Contact form
-	- Playable audio samples
 
 ## Tech Used
 
 ### Some of the tech used includes:
 - [AngularJS](https://angularjs.org/)
-	- We use **AngularJS** to handle page routing and build custom directives
+	- I use **AngularJS** to handle page routing and build custom directives and services
 - [Bootstrap](http://getbootstrap.com/)
-	- We use **Bootstrap** to give the project a simple, responsive layout
+	- I use **Bootstrap** to give the project a simple, responsive layout
+- [AngularStrap](http://mgcrea.github.io/angular-strap/)
+	- I use **AngularStrap** for navbar functionality. To highlight the current tab
+- [jQuery](https://jquery.com/)
+	- I use **jQuery** to simplify Javascript programming
 - [npm](https://www.npmjs.com/)
-	- We use **npm** to help manage some of the dependencies in our application
+	- I use **npm** to help manage some of the dependencies in the application
 - [bower](https://bower.io/)
-	- **Bower** is used to manage the installation of our libraries and frameworks
+	- **Bower** is used to manage the installation of libraries and frameworks
 
 ## 
 
