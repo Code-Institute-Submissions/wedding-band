@@ -11,12 +11,13 @@
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+	<script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
-
 </head>
 <body id="page-top">
 <!--Navigation bar-->
@@ -34,17 +35,17 @@
 						<a class="navbar-brand" href="/">The Wedding Singers</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a data-toggle="tab" href="/">Home</a></li>
-							<li><a href="/music">Music</a></li>
-							<li><a href="/setlist">Set List</a></li>
-							<li><a href="/pricing">Pricing</a></li>
-							<li><a href="/faq">FAQ</a></li>
-							<li class="dropdown">
+						<ul class="nav navbar-nav" bs-navbar>
+							<li data-match-route="/$"><a href="/">Home</a></li>
+							<li data-match-route="/music"><a href="/music">Music</a></li>
+							<li data-match-route="/setlist"><a href="/setlist">Set List</a></li>
+							<li data-match-route="/pricing"><a href="/pricing">Pricing</a></li>
+							<li data-match-route="/faq"><a href="/faq">FAQ</a></li>
+							<li data-match-route="#" class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="contact/contactform">Contact Form</a></li>
-									<li><a href="contact/dates">Available Dates</a></li>
+									<li data-match-route="contact/contactform"><a href="contact/contactform">Contact Form</a></li>
+									<li data-match-route="contact/dates"><a href="contact/dates">Available Dates</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -114,9 +115,6 @@
 <script type="text/javascript" src="js/controller.js"></script>
 <script type="text/javascript" src="js/service.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-
 
  
 </body>

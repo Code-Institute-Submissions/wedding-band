@@ -1,4 +1,4 @@
-angular.module("WeddingBand", ["ngRoute", "RouteControllers"]);
+angular.module("WeddingBand", ["ngRoute", "RouteControllers", "mgcrea.ngStrap"]);
 
 angular.module("WeddingBand").config(function($locationProvider, $routeProvider){
 	$locationProvider.html5Mode(true);
