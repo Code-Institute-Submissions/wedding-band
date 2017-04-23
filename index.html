@@ -14,12 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
-	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 
 </head>
 <body id="page-top">
+<!--Navigation bar-->
 	<div class="navbar-wrapper">
 		<div class="container">
 			<nav class="navbar navbar-inverse navbar-static-top">
@@ -35,7 +35,7 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="/">Home</a></li>
+							<li class="active"><a data-toggle="tab" href="/">Home</a></li>
 							<li><a href="/music">Music</a></li>
 							<li><a href="/setlist">Set List</a></li>
 							<li><a href="/pricing">Pricing</a></li>
@@ -54,22 +54,25 @@
 		</div>
 	</div>
 	
+	<!--Move scroll position back to top when changing to a new page-->
 	<div ng-view autoscroll="true"></div>
 
+	<!--Back to top button to allow user to get back to top of page once they've scrolled down past a certain point-->
 	<button type="button" class="back-to-top btn btn-default btn-lg">
 	<a href="#"><span class="glyphicon glyphicon-menu-up"></span>
 	</a>
 	</button>
 
+	<!--Social media and other quick contact links to be present on every page-->
 	<div class="container">
         <div class="row">
           <div class="col-md-4">
           	<h4>Social Media</h4>
-            <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a>
+            <a class="btn btn-social-icon-noblock btn-facebook-noblock" target="_blank" href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a>
             <a target="_blank" href="https://www.facebook.com/">Facebook</a>
             <br>
             <br>
-            <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/?lang=en"><span class="fa fa-twitter"></span></a>
+            <a class="btn btn-social-icon-noblock btn-twitter-noblock" target="_blank" href="https://twitter.com/?lang=en"><span class="fa fa-twitter"></span></a>
             <a target="_blank" href="https://twitter.com/?lang=en">Twitter</a>
             <br>
             <br>
@@ -96,7 +99,7 @@
     <hr class="featurette-divider">
      
 
-	
+	<!--Footer-->
 	<footer>
 		<p class="pull-right"><a href="#page-top">Back to top</a></p>
 		<p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
@@ -106,10 +109,11 @@
 	
 	
 
-
+<!--Script Tags-->
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/controller.js"></script>
 <script type="text/javascript" src="js/service.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 
