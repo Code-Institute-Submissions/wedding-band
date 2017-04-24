@@ -1,3 +1,4 @@
+/*Code for back to top button. Fades in and out at certain points*/
 $(document).ready(function() {
  
 	var offset = 10;
