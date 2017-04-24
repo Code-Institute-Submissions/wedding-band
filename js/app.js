@@ -23,11 +23,11 @@ angular.module("WeddingBand").config(function($locationProvider, $routeProvider)
 		templateUrl: "templates/faq",
 		controller: "FaqController"
 	})
-	.when("contact/contactform", {
+	.when("/contact/contactform", {
 		templateUrl: "templates/contact.html",
 		controller: "ContactController"
 	})
-	.when("contact/dates", {
+	.when("/contact/dates", {
 		templateUrl: "templates/dates.html",
 		controller: "DatesController"
 	});
