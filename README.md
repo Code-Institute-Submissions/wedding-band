@@ -14,6 +14,10 @@ This site provides visitors with information about the band, audio examples etc.
 
 The site is built using AngularJS which handles page routing and is used for custom directives and services. I built a custom service to provide a list of available dates to the user when they click on a button. This is just to show an example of how a service could be used as there is no backend functionality to this site. As well as this I used custom HTML5, CSS3 and Javascript along with Bootstrap and AngularStrap to give the site it's design and functionality.
 
+### Testing
+
+The site has been tested extensively in Chrome, Firefox and Safari but only briefly in IE.
+
 
 
 ## Features
@@ -25,6 +29,12 @@ The site is built using AngularJS which handles page routing and is used for cus
 - Social links
 - Audio and video clips
 - Button to check available dates
+
+
+## Bugs
+
+### Existing bugs
+- The back-to-top link at the bottom of each page only works once per page refresh. However, as there is also a back-to-top arrow present once the user has scrolled past a certain point on the page which works all the time this bug was not given priority.
 
 
 ## Tech Used
@@ -43,7 +53,6 @@ The site is built using AngularJS which handles page routing and is used for cus
 - [bower](https://bower.io/)
 	- **Bower** is used to manage the installation of libraries and frameworks
 
-## 
 
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
