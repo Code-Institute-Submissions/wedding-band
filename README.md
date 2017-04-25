@@ -14,6 +14,10 @@ This site provides visitors with information about the band, audio examples etc.
 
 The site is built using AngularJS which handles page routing and is used for custom directives and services. I built a custom service to provide a list of available dates to the user when they click on a button. This is just to show an example of how a service could be used as there is no backend functionality to this site. As well as this I used custom HTML5, CSS3 and Javascript along with Bootstrap and AngularStrap to give the site it's design and functionality.
 
+### Testing
+
+The site has been tested extensively in Chrome, Firefox and Safari but only briefly in IE.
+
 
 
 ## Features
