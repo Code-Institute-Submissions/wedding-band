@@ -46,8 +46,13 @@ The site has been tested extensively in Chrome, Firefox and Safari but only brie
 	- I use **npm** to help manage some of the dependencies in the application
 - [bower](https://bower.io/)
 	- **Bower** is used to manage the installation of libraries and frameworks
+  
 
-## 
+## Bugs
+
+### Existing bugs
+- The back-to-top link at the bottom of each page only works once per page refresh. However, as there is also a back-to-top arrow present once the user has scrolled past a certain point on the page which works all the time this bug was not given priority.
+
 
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
